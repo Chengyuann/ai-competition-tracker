@@ -68,7 +68,7 @@ if os.path.exists(data_file):
             "status": "状态"
         },
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
         height=600
     )
 
@@ -80,3 +80,4 @@ else:
 st.markdown("---")
 
 st.markdown("*这是一个 AI 辅助开发的开源项目 demo*")
+
