@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import os
 from main import run_scrapers
+from datetime import datetime
 
 # 页面配置
 st.set_page_config(
@@ -77,4 +78,5 @@ else:
 
 # 页脚
 st.markdown("---")
+
 st.markdown("*这是一个 AI 辅助开发的开源项目 demo*")
